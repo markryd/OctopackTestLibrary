@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace OctopackTestLibrary
 {
-    public class Class1
+    public class Greeter
     {
+        public string Hello()
+        {
+            return "Hello world";
+        }
     }
 }
